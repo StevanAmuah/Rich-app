@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        backgroundColor: Colors.blueGrey[100],
         appBar: AppBar(
           title: const Text("I am rich"),
           centerTitle: true,
